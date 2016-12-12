@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>Mshwf.NiceLinq</id>
-    <version>1.0.0.8</version>
+    <version>1.0.0.9</version>
     <title>Nice LINQ</title>
-    <authors>Mshawaf</authors>
+    <authors>MShawaf</authors>
     <owners>Mshawaf</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>LINQ helper methods to make it easy to search in any set of values.</description>
-    <releaseNotes>New method NotIn.</releaseNotes>
+    <description>See it as: WHERE ID IN (1, 2, 3, 7, 9, 22, 30, 101)</description>
+    <releaseNotes>Passing either array (params) or list (IEnumerable)</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>LINQ IEnumerable Where Contains Search Filter</tags>
   </metadata>
