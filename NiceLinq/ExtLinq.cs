@@ -1,7 +1,8 @@
-﻿using System;
+﻿/*Created by Mohamed A. Elshawaf - 2016
+m_shawaf@outlook.com*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
-//Created by Mohamed A. Elshawaf
 namespace NiceLinq
 {
     /// <summary>
