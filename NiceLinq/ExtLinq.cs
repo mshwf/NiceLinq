@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+//Created by Mohamed A. Elshawaf
 namespace NiceLinq
 {
     /// <summary>
