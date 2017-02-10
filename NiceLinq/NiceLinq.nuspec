@@ -2,15 +2,15 @@
 <package >
   <metadata>
     <id>Mshwf.NiceLinq</id>
-    <version>1.0.9</version>
+    <version>1.1.0</version>
     <title>Nice LINQ</title>
     <authors>MShawaf</authors>
     <owners>Mshawaf</owners>
     <projectUrl>https://github.com/mshwf/NiceLinq</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/mshwf/NiceLinq/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>See it as: WHERE ID IN (1, 2, 3, 7, 9, 22, 30, 101)</description>
-    <releaseNotes>Minor changes.</releaseNotes>
+    <description>See it as: WHERE ID IN (1, 2, 3)</description>
+    <releaseNotes>Targeting .NET 3.5 and later versions.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>LINQ IEnumerable Where Contains Search Filter</tags>
   </metadata>

@@ -1,3 +1,3 @@
 nuget pack NiceLinq.csproj
 
-nuget push Mshwf.NiceLinq.1.0.9.nupkg 7df06a01-e1a3-4db8-b40b-39566b0eaadd -Source https://www.nuget.org/api/v2/package
+nuget push Mshwf.NiceLinq.1.1.0.nupkg 7df06a01-e1a3-4db8-b40b-39566b0eaadd -Source https://www.nuget.org/api/v2/package
