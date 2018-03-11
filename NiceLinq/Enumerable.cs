@@ -6,9 +6,9 @@ using System.Linq;
 namespace NiceLinq
 {
     /// <summary>
-    /// Extended LINQ methods will live here.
+    /// IEnumerable implementation of NiceLinq's methods
     /// </summary>
-    public static class ExtLinq
+    public static partial class Enumerable
     {
         /// <summary>
         /// Filters a sequence of objects based on a given subset of matching values.

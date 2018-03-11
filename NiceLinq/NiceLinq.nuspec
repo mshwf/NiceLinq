@@ -9,7 +9,13 @@
     <projectUrl>https://github.com/mshwf/NiceLinq</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/mshwf/NiceLinq/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>See it as: WHERE ID IN (1, 2, 3)</description>
+    <description>See it as: SELECT * FROM Books WHERE ID IN (1, 2, 3) >>
+
+var books = context.Books.In(b => b.Id, 1, 2, 3) >>
+
+context.Books.In(b => b.Id, listOfIds).
+
+The package contains NotIn</description>
     <releaseNotes>Targeting .NET 3.5 and later versions.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>LINQ IEnumerable Where Contains Search Filter</tags>
