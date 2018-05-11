@@ -2,22 +2,18 @@
 <package >
   <metadata>
     <id>Mshwf.NiceLinq</id>
-    <version>1.1.0</version>
+    <version>2.0.0</version>
     <title>Nice LINQ</title>
     <authors>MShawaf</authors>
     <owners>Mshawaf</owners>
     <projectUrl>https://github.com/mshwf/NiceLinq</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/mshwf/NiceLinq/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>See it as: SELECT * FROM Books WHERE ID IN (1, 2, 3) >>
-
-var books = context.Books.In(b => b.Id, 1, 2, 3) >>
-
-context.Books.In(b => b.Id, listOfIds).
-
-The package contains NotIn</description>
-    <releaseNotes>Targeting .NET 3.5 and later versions.</releaseNotes>
-    <copyright>Copyright 2016</copyright>
-    <tags>LINQ IEnumerable Where Contains Search Filter</tags>
+    <description>In and NotIn SQL alike methods. 
+    Example: accounts.In(x => x.Id => 1, 2, 3)
+    </description>
+    <releaseNotes>Support of IQueryable with Expression-trees</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>SQL LINQ IEnumerable IQueryable Where Contains Filter</tags>
   </metadata>
 </package>
