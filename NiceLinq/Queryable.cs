@@ -1,5 +1,6 @@
 ﻿/*Created by Mohamed A. Elshawaf - 2018
 m_shawaf@outlook.com*/
+using NiceLinq.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,6 +72,32 @@ namespace NiceLinq
             var lambda = Helper.GetExpression<T>(propertyName);
             var orderedList = notOrderedList.OrderBy(lambda);
             return orderedList;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="seq1"></param>
+        /// <param name="seq2"></param>
+        /// <returns></returns>
+        public static IQueryable<T> InterlockWith<T>(this IQueryable<T> seq1, IQueryable<T> seq2)
+        {
+            Tuple<T[], int>[] metaSequences = new Tuple<T[], int>[2];
+            metaSequences[0] = Tuple.New(seq1.ToArray(), seq1.Count());
+            metaSequences[1] = Tuple.New(seq2.ToArray(), seq2.Count());
+            var orderedMetas = metaSequences.OrderBy(x => x.Second).ToArray();
+
+            for (int i = 0; i < orderedMetas[0].Second; i++)
+            {
+                yield return metaSequences[0].First[i];
+                yield return metaSequences[1].First[i];
+            }
+
+            var remainingItems = orderedMetas[1].First.Skip(orderedMetas[0].Second);
+            foreach (var item in remainingItems)
+            {
+                yield return item;
+            }
         }
     }
 }

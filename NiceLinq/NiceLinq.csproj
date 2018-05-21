@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Enumerable.cs" />
     <Compile Include="Helper.cs" />
+    <Compile Include="Helpers\Tuple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queryable.cs" />
   </ItemGroup>

@@ -21,11 +21,11 @@ namespace NiceLinq
 
         internal static T Selector<T>(T obj, IEnumerable<PropertyInfo> properties)
         {
-            var instance = Activator.CreateInstance(typeof(T));
+            var instance = Activator.CreateInstance<T>();
             foreach (var property in properties)
                 property.SetValue(instance, property.GetValue(obj, null), null);
 
-            return (T)instance;
+            return instance;
         }
 
 
