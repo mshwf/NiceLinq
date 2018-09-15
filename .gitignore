@@ -243,4 +243,4 @@ ModelManifest.xml
 #nuget
 /NiceLinq.nuspec
 /NuGet.exe
-/NiceLinq/nuget.txt
+nuget.txt
