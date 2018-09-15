@@ -86,7 +86,7 @@ namespace NiceLinq
             return sequence.Select(x => Helper.Selector(x, includedProperties));
         }
         /// <summary>
-        /// Order by a property name.
+        /// Order by using the property name.
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="notOrderedList">The sequence to be re-ordered</param>
