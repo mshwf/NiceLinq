@@ -9,8 +9,7 @@
     <projectUrl>https://github.com/mshwf/NiceLinq</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/mshwf/NiceLinq/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>In and NotIn SQL alike methods. 
-    Example: accounts.In(x => x.Id => 1, 2, 3)
+    <description>Some more LINQ extensions to make it even more easier.
     </description>
     <releaseNotes>Support of IQueryable with Expression-trees</releaseNotes>
     <copyright>Copyright 2018</copyright>
