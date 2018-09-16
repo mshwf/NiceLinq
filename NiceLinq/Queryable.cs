@@ -1,13 +1,11 @@
 ﻿/*Created by Mohamed A. Elshawaf - 2018
 m_shawaf@outlook.com*/
-using NiceLinq.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Reflection;
 
-namespace NiceLinq
+namespace Mshwf.NiceLinq
 {/// <summary>
 /// IQueryable implementation of NiceLinq's methods
 /// </summary>

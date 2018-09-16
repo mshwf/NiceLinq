@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
-namespace NiceLinq
+namespace Mshwf.NiceLinq
 {
     internal static class Helper
     {

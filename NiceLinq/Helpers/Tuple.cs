@@ -1,4 +1,4 @@
-﻿namespace NiceLinq.Helpers
+﻿namespace Mshwf.NiceLinq.Helpers
 {
     internal class Tuple<T1, T2>
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{A439E99F-26B3-444B-A295-E6B24C7684D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NiceLinq</RootNamespace>
-    <AssemblyName>NiceLinq</AssemblyName>
+    <RootNamespace>Mshwf.NiceLinq</RootNamespace>
+    <AssemblyName>Mshwf.NiceLinq</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -21,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\NiceLinq.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Mshwf.NiceLinq.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
