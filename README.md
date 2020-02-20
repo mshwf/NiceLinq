@@ -1,4 +1,4 @@
-# NiceLinq [![](https://img.shields.io/badge/nuget-1.0.0-00259F)](https://www.nuget.org/packages/Mshwf.NiceLinq/)
+# NiceLinq [![](https://img.shields.io/badge/nuget-2.0.1-00259F)](https://www.nuget.org/packages/Mshwf.NiceLinq/)
 The library contains two methods that I used to use whenever I thought of the `IN` and `NOT IN` operators in SQL, their implementations are simple
 but hides a repetive code.
 For example, if you want to get list of accounts fall in range of `Id`s, use it like this:
