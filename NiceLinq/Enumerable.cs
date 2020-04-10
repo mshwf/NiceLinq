@@ -1,10 +1,10 @@
 ﻿/*Created by Mohamed A. Elshawaf - 2016
 m_shawaf@outlook.com*/
-using Mshwf.NiceLinq.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using Tuple = Mshwf.NiceLinq.Helpers.Tuple;
 
 namespace Mshwf.NiceLinq
 {
@@ -101,7 +101,7 @@ namespace Mshwf.NiceLinq
 
         public static IEnumerable<T> InterlockWith<T>(this IEnumerable<T> seq1, IEnumerable<T> seq2)
         {
-            Tuple<T[], int>[] metaSequences = new Tuple<T[], int>[2];
+            Helpers.Tuple<T[], int>[] metaSequences = new Helpers.Tuple<T[], int>[2];
             metaSequences[0] = Tuple.New(seq1.ToArray(), seq1.Count());
             metaSequences[1] = Tuple.New(seq2.ToArray(), seq2.Count());
             var orderedMetas = metaSequences.OrderBy(x => x.Second).ToArray();
