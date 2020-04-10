@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceLinq", "NiceLinq\NiceLinq.csproj", "{A439E99F-26B3-444B-A295-E6B24C7684D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceLinq.Tests", "NiceLinq.Tests\NiceLinq.Tests.csproj", "{2BE43342-2E59-4EB4-9032-6FC2C0E4D4A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{A439E99F-26B3-444B-A295-E6B24C7684D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A439E99F-26B3-444B-A295-E6B24C7684D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A439E99F-26B3-444B-A295-E6B24C7684D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE43342-2E59-4EB4-9032-6FC2C0E4D4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE43342-2E59-4EB4-9032-6FC2C0E4D4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE43342-2E59-4EB4-9032-6FC2C0E4D4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE43342-2E59-4EB4-9032-6FC2C0E4D4A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C863AD3B-629A-4FC8-95BF-99BE59896737}
 	EndGlobalSection
 EndGlobal
